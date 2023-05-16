@@ -62,7 +62,6 @@
   const params = PluginManager.parameters('NumberInputMaxMin');
   const varMax = params['MaxValue'] || 100;
   const varMin  = params['MinValue'] || 0;
-  console.log(varMax);
 
 
     const _Window_NumberInput_start = Window_NumberInput.prototype.start;
